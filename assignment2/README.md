@@ -21,7 +21,7 @@ The credentials schema looks like this
 
 ```sql
 CREATE TABLE creds(
-	uid INTEGER,
+    uid INTEGER,
     name TEXT NOT NULL,
     address TEXT NOT NULL,
     email TEXT NOT NULL,
